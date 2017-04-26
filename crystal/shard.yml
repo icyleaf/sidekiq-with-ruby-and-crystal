@@ -1,0 +1,18 @@
+name: crystal
+version: 0.1.0
+
+authors:
+  - icyleaf <icyleaf.cn@gmail.com>
+
+targets:
+  crystal:
+    main: src/crystal.cr
+
+dependencies:
+  sidekiq:
+    github: mperham/sidekiq.cr
+    branch: master
+
+crystal: 0.22.0
+
+license: MIT
